@@ -5,16 +5,20 @@ f<?php
  $nimi = $_POST['nimi'];
  switch ($nimi) {
  case 'Nikolas':
- $pros = 100;
- break;
+	 $pros = 100;
+	 break;
  case 'Raineri':
- $pros = 100;
- break;
+	 $pros = 100;
+	 break;
  case 'Sabina':
- $pros = 79;
+	 $pros = 79;
+	 break;
+case 'Hagert':
+	$pros = 110;
+	break;
  default:
- $pros = rand(0, 100);
- break;
+	 $pros = rand(0, 100);
+	 break;
  }
  ?>
 <h1>Olet <?php echo $pros ?>% manne!</h1> 
