@@ -1,2 +1,2 @@
 # manneprosentti
-Älä käytä deployment-servuilla tietoturva-aukkojen vuoksi...
+Leikkimielinen phpdemo, joka kertoo todella tieteellisen algoritmin avulla kuinka monta prosenttia olet manne.
